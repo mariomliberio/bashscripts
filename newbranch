@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "New branch name: " branch
+git branch "$branch"
+git checkout "$branch"
