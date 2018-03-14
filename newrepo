@@ -1,0 +1,8 @@
+#!/bin/bash
+git init
+git add .
+read -p "Commit description: " desc  
+git commit -m "$desc" 
+read -p "Repo url: " repo 
+git remote add origin "$repo"
+git push origin master
