@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "html name: " html
+touch "$html.html"
+read -p "css name: " css
+touch "$css.css"
+read -p "js name: " js
+touch "$js.js"
